@@ -1,0 +1,53 @@
+.list1, .list2, .list3 {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foot-container{
+    background-color: rgb(253, 156, 173);
+    padding: 2rem 10%;
+    
+}
+
+.social-logo img{
+    height: 24px;
+    width: 24px;
+}
+
+.foot-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-container{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-container{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-packet{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-note p{
+    text-align: center;
+    width: 100%;
+    word-break: normal;
+}

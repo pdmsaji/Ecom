@@ -1,0 +1,16 @@
+.image-wrapper{
+    background-image: url('https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 400px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.meta-wrapper h3{
+    margin: .5rem 0 0 0 ;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.meta-wrapper h2{
+    margin: .5rem 0 10px 0 ;
+}

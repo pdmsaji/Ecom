@@ -1,0 +1,62 @@
+.hero-main-img{
+    background-image: url('../../images/BANNER1.png');
+    width:50vw;
+    height: 70vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.banner-section-one{
+    padding: 0rem 20rem;
+    background-color: rgb(255, 169, 184);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc2 h4{
+    margin: .25rem 0 0 0;
+}
+
+.desc2 p{
+    margin: .25rem 0 1.5rem  0;
+}
+
+
+
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    /* width: 70vw; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 80px;
+    white-space:nowrap;
+    height: 500px;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
